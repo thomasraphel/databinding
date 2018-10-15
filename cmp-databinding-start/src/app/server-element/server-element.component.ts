@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ServerElementComponent implements OnInit {
   
-  @Input()
+  @Input('serverElement')
   element : {type : string, name : string, content : string};
   //kind of property or the data type,, just line ' element : Ingredient '
 
