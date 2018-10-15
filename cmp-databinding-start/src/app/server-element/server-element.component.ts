@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerElementComponent implements OnInit {
   
+  element : {type : string, name : string, content : string};
+  //kind of property or the data type,, just line ' element : Ingredient '
+
   constructor() { }
 
   ngOnInit() {
